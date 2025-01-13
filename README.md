@@ -7,13 +7,13 @@ To implement your own algorithm, clone this repo and edit `process.py`. To test,
 
 Here is a list of the files in this repo and what their use is
 
-| File name                           | Usage                                                                                                                                                      |
-| ----------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| requirements.txt                    | The python dependencies needed to run the code.                                                                                                            |
-| process.py                          | The implementation of the algorithm. It contains a method `event_processor(evt: dict)` where processing begins                                             |
-| index.py                            | Entry point of the code when run in a cage. It starts an event listener that registers the incoming events and passes them to the `event_processor` method |
-| Dockerfile                          | Bundles the project in a self contained Docker image                                                                                                       |
-| .github/workflows/release-image.yml | Builds and pushes the image using github actions                                                                                                           |
+| File name                           | Usage                                                                                                                                                           |
+| ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| requirements.txt                    | The python dependencies needed to run the code.                                                                                                                 |
+| process.py                          | The implementation of the algorithm. It contains a method `event_processor(evt: dict)` where processing begins.                                                 |
+| index.py                            | Entry point of the code when it's ran in a cage. It starts an event listener that registers the incoming events and passes them to the `event_processor` method |
+| Dockerfile                          | Bundles the project in a self contained Docker image                                                                                                            |
+| .github/workflows/release-image.yml | Builds and pushes the image using github actions                                                                                                                |
 
 ## Run in cage
 

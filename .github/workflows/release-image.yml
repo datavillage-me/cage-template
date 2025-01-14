@@ -7,7 +7,7 @@ on:
       - production
       - acceptance
     tags:
-      - *.*.*
+      - "*"
 
 env:
   REGISTRY: ghcr.io

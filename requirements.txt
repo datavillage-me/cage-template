@@ -1,1 +1,1 @@
-dv-utils==2.0.0rc2
+dv-utils==2.0.0rc3

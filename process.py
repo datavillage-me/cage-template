@@ -1,11 +1,11 @@
-from dv_utils import audit_log, LogLevel, set_event
+from dv_utils import log, LogLevel, set_event
 
 def event_processor(evt: dict):
   """
   Process an incoming event. The `evt` dict has at least the field `type`
   Exception raised by this function are handled by the default event listener and reported in the logs.
   """
-  audit_log("event_processor started", LogLevel.INFO)
+  log("event_processor started", LogLevel.INFO)
   pass
 
 
